@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelonian Chronicles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Chelonian Chronicles</h1>
+        <p>Educating about turtles, tortoises, and their environments.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="turtle.html">Turtles (Testudine)</a></li>
+            <li><a href="turtle-environments.html">Turtle Environments</a></li>
+            <li><a href="tortoise.html">Tortoises (Testudinidae)</a></li>
+            <li><a href="tortoise-environments.html">Tortoise Environments</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+	<main>
+		<div class="title">
+			<h1>Turtles<h1>
+		</div>
+		<div class="title2">
+			<h4>Also known as Testudine</h4>
+		</div>
+			<p>
+				Turles are any of an order (Testudines synonym Chelonia) of terrestrial, freshwater, and marine reptiles that have a toothless horny beak and a shell of bony dermal plates usually covered with horny shields enclosing the trunk and into which the head, limbs, and tail usually may be withdrawn.(https://www.merriam-webster.com/dictionary/turtle)
+			</p>
+		<div id="divider">
+			<img src="divider.png">
+		</div>
+		<div class="turtlesIntro">
+			<h2> Sonoran Mud Turtles </h2>
+		</div>
+		<div>
+		<img src="sonoran.jpg" alt="A Sonoran Mud Turtle" class="sonoranimg">
+		<p id="caption2"><i>image of a Sonoran Mud Turtle, taken by Richard Bonnett</i></p>
+		</div>
+		<ul>
+			<li>Habitat: Found in oasis-like environments such as Quitobaquito Springs, these turtles rely on limited water sources in the desert.</li>
+			<li>Shell Design: Their domed shells are adapted for protection, and they have webbed feet for semi-aquatic lifestyles.</li>
+			<li>Endangered Status: They are among the endangered species in the Sonoran Desert, highlighting the importance of conservation efforts.</li>
+		</ul>
+		<div class="turtlesIntro">
+			<h2> Ornate Box Turtle </h2>
+		</div>
+			<iframe
+				width: "1025"
+				height: "576"
+				src="https://www.youtube.com/embed/nfzwtWLhxtI" 
+				title="YouTube video" 
+				frameborder="0" 
+				allowfullscreen
+				>
+			</iframe>
+		<ul>
+			<li>Habitat: Lives in desert grasslands and uses desert burrows to avoid extreme temperatures.</li>
+			<li> Shell Design: Both the upper and lower shell has yellow and brown lines with reddish spots on its front legs. </li>
+			<li> Diet: Consumes primarily fruit, insects, and leaves. (https://www.nps.gov/sagu/learn/nature/turtles-and-tortoises.htm)</li>
+		</ul>
+		<div id="divider">
+			<img src="divider.png">
+		</div>
+		<h2>Quiz Time!</h2>
+		<p>Can you identify this turtle?</p>
+		<div>
+		<img src="mysteryturtle.jpg" alt="a small turtle with brown eyes and a very complex black and yellow shell" id="mystery">
+		<p id="caption2"><i>image of turtle by Patrick Feller</i></p>
+		</div>
+		<p><button onclick="showAnswer()" id="showButton">Show Answer</button></p>
+		<p id="turtleAnswer"></p>
+		<script src="turtlescript.js"></script>
+	</main>
+	<footer>
+	<p> Chelonian Chronicales</p>
+	<p> Created by Group 2</p>
+	</footer>
+</body>

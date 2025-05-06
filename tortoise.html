@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelonian Chronicles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Chelonian Chronicles</h1>
+        <p>Educating about turtles, tortoises, and their environments.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="turtle.html">Turtles (Testudine)</a></li>
+            <li><a href="turtle-environments.html">Turtle Environments</a></li>
+            <li><a href="tortoise.html">Tortoises (Testudinidae)</a></li>
+            <li><a href="tortoise-environments.html">Tortoise Environments</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+    <main>
+	<div class="title">
+		<h1>Tortoises<h1>
+	</div>
+	<div class="title2">
+		<h4>Also known as Testudinidae</h4>
+	</div>
+	<div>
+	<img src="tortoisepicture.jpg" alt="Picture of a Tortoise" class="tortoiseimg">
+	<p id="caption2"><i>image of a tortoise, taken by Susanne Edele</i></p>
+	</div>
+	<h2 class="defTitle"> What even is a Tortoise?</h2>
+	<p>
+		An animal with a thick, hard shell that it can move its head and legs into for protection. It eats plants, moves very slowly, and sleeps during the winter. (https://dictionary.cambridge.org/us/dictionary/english/tortoise)" 
+	</p>
+	<div id="divider">
+        <img src="divider.png">
+    </div>
+	<h2 class="tableTitle"> Information </h2>
+	<p> 
+		The table below is showing information about species of Tortoises, their environments, and unique traits they have.
+	</p>
+	<table class="tortoiseTable"> 
+		<thead>
+			<tr>
+				<th>Tortoise Species </th>
+				<th>Environment </th>
+				<th>Unique Traits</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Sonoran Desert Tortoise </td>
+				<td>Arid desert, rocky hillsides </td>
+				<td>Builds burrows, stores water in its bladder</td>
+			</tr>
+			<tr>
+				<td>Galápagos Tortoise </td>
+				<td>Volcanic islands, grasslands</td>
+				<td>Largest tortoise, can live over 100 years</td>
+			</tr>
+			<tr>
+				<td>Sulcata Tortoise</td>
+				<td>Dry savannahs of Africa </td>
+				<td>Digs extensive burrows to escape extreme heat</td>
+			</tr>
+			<tr>
+				<td>Indian Star Tortoise </td>
+				<td>Dry scrub forests, grasslands in India</td>
+				<td>Star-patterned shell for camouflage</td>
+			</tr>
+			<tr>
+				<td>Leopard Tortoise </td>
+				<td>Semi-arid regions in Africa</td>
+				<td>Domed shell with spotted markings </td>
+			</tr>
+			<tr>
+				<td>Aldabra Giant Tortoise</td>
+				<td>Coastal grasslands, swamps in Seychelles</td>
+				<td>Extremely large, grazes on grasses and low plants</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<div id="divider">
+        <img src="divider.png">
+        </div>
+	<h2>Tortoise Speed Simulator</h2>
+		<p id="answer">Want to see how fast tortoises can really go? Increase the speed to find out!</p>
+		<p id="speed">Speed: 0 mph</p>
+		<button onclick="increaseSpeed()">Increase Speed</button>
+		<script src="turtlescript.js"></script>
+
+	<div id="divider">
+		<img src="divider.png">
+	</div>
+	<h2>Test Your Knowledge!</h2>
+		<form>
+		<p>Which of these lives in a semi-arid region?</p>
+			<input type="radio" name="semiarid" value="Leopard Tortoise" id="leopard">
+			<label for="leopard">Leopard Tortoise</label>
+			<input type="radio" name="semiarid" value="Sonoran Desert Tortoise" id="desert">
+			<label for="desert">Sonoran Desert Tortoise</label>
+			<input type="radio" name="semiarid" value="Indian Star Tortoise" id="star">
+			<label for="star">Indian Star Tortoise</label>
+			
+		<p>Which of these digs extensive burrows?</p>
+			<input type="radio" name="burrows" value="Aldabra Giant Tortoise" id="aldabra">
+			<label for="aldabra">Aldabra Giant Tortoise</label>
+			<input type="radio" name="burrows" value="Sulcata Tortoise" id="sulcata">
+			<label for="sulcata">Sulcata Tortoise</label>
+			<input type="radio" name="burrows" value="Sonoran Desert Tortoise" id="desert2">
+			<label for="desert2">Sonoran Desert Tortoise</label>
+
+		<p>Finally, which of these lives on volcanic islands?</p>
+			<input type="radio" name="volcanic" value="Leopard Tortoise" id="leopard2">
+			<label for="leopard2">Leopard Tortoise</label>
+			<input type="radio" name="volcanic" value="Galápagos Tortoise" id="galápagos">
+			<label for="galápagos">Galápagos Tortoise</label>
+			<input type="radio" name="volcanic" value="Aldabra Giant Tortoise" id="aldabra2">
+			<label for="aldabra2">Aldabra Giant Tortoise</label>
+
+		<p>
+			<input type="submit" value="Submit">
+		</p>
+		</form>
+</main>
+	<footer>
+	<p> Chelonian Chronicales</p>
+	<p> Created by Group 2</p>
+	</footer>
+</body>
